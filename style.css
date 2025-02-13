@@ -50,11 +50,12 @@ header{
 
 header > h1{
     text-align: center;
-    font-size: 6em;
+    font-size: 7em;
     font-family: var(--fonte-principal);
     color: white;
     text-shadow: 2px 5px 3px var(--cor1);
     font-style: italic;
+    padding-bottom: 30px;
 }
 
 nav{
@@ -181,6 +182,7 @@ footer{
 
 footer p{
     font-size: 0.9em;
+    text-align: center;
 }
 
 
