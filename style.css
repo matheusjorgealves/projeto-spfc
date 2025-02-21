@@ -37,6 +37,9 @@
 
 body{
     background-image: linear-gradient(to right, var(--cor0), var(--cor1), rgb(24, 0, 0));
+    background-image: url(imagens/imagem-de-fundo.jpeg);
+    background-size: contain;
+    height: 100vh;
 }
 
 
@@ -45,7 +48,7 @@ header{
     background-color: black;
 
     min-height: 150px;
-    padding-top: 30px;
+    padding-top: 55px;
 }
 
 header > h1{
