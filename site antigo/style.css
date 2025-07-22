@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+
+@font-face {
+    font-family: 'principal';
+    src: url('fontes/WorldDiscovery_PERSONAL_USE_ONLY.otf') format(opentype);
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: 'destaque';
+    src: url('fontes/CaviarDreams.ttf') format(opentype);
+    font-weight: normal;
+}
+
+
+
+:root{
+    --fonte-padrao: 'courier new', georgia, sans-serif, helvetica; 
+    --fonte-principal: 'principal', serif;
+    --fonte-destaque: 'destaque', serif;
+
+
+    --cor0: rgb(255, 194, 194);
+    --cor1: rgb(255, 0, 0);
+    --cor2: rgb(71, 0, 0);
+}
+
+
+
+*{
+    margin: 0px;
+}
+
+
+
+body{
+    background-image: linear-gradient(to right, var(--cor0), var(--cor1), rgb(24, 0, 0));
+}
+
+
+
+header{
+    background-color: black;
+
+    min-height: 150px;
+    padding-top: 30px;
+}
+
+header > h1{
+    text-align: center;
+    font-size: 6em;
+    font-family: var(--fonte-principal);
+    color: white;
+    text-shadow: 2px 5px 3px var(--cor1);
+    font-style: italic;
+}
+
+nav{
+    padding: 20px;
+
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.418);
+}
+
+nav a{
+    padding: 20px;
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: white;
+    color: var(--cor1);
+}
+
+
+
+main{
+    max-width: 800px;
+    min-width: 280px;
+
+    background-color: white;
+
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 5px 5px 10px 1px var(--cor2);
+
+    padding: 10px;
+    margin: auto;
+
+    font-family: var(--fonte-padrao);
+}
+
+
+
+main > h1{
+    font-family: var(--fonte-destaque);
+    font-size: 4em;
+    text-align: center;
+
+    margin: 30px 0px;
+}
+
+main > h2{
+    font-size: 3em;
+    text-align: left;
+    font-family: var(--fonte-destaque);
+    text-indent: 30px;
+
+    margin: 40px 0px;
+
+    background-image: linear-gradient(to right, var(--cor0), transparent);
+    border-radius: 10px;
+    padding: 3px;
+}
+
+main > h3{
+    font-family: var(--fonte-destaque);
+    margin: 30px 0px;
+}
+
+main > h4{
+    margin: 10px 0px;
+}
+
+
+
+main > picture > img{
+    width: 100%;
+}
+
+
+
+main a{
+    color: var(--cor1);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+main a:visited{
+    color: rgb(206, 0, 0);
+}
+
+main a:active{ 
+    background-color: var(--cor0);
+    color: rgb(255, 255, 255);
+}
+
+
+
+main p{
+    text-align: center; 
+    font-size: 1.2em;
+    text-indent: 20px;
+    line-height: 1.5em;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+
+    font-size: 1.2em;
+    font-weight: bold;
+
+    padding: 3px;
+    margin-top: 20px;
+}
+
+
+
+footer p{
+    font-size: 0.9em;
+}
+
+
+
+footer > p:hover{
+    text-decoration: underline;
+}
+
+
+
+mark{
+    background-color: rgba(255, 0, 0, 0.733);
+    color: rgb(36, 0, 0);
+}
+
+
+
+ul{
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+
+
+div{
+    display: inline-block;
+    height: 150px;
+    width: 190px;
+    text-align: center;
+    line-height: 150px;
+    
+    background-color: rgb(114, 114, 114);
+
+    border-radius: 50px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+
+    margin-right: 10px;
+}
+
+div#tri:hover{
+    background-color: var(--cor1);
+    font-size: 30px;
+    font-family: 'times new roman', serif;
+}
+
+div#co:hover{
+    font-size: 30px;
+    font-family: 'times new roman', serif;
+
+    background-color: black;
+    color: aliceblue;
+
+    border: 1px solid var(--cor1);
+    box-shadow: 1px 1px 1px var(--cor1);
+}
+
+div#lor:hover{
+    background-color: aliceblue;
+    font-size: 30px;
+    font-family: 'times new roman', serif;
+}
+
+
+
+ins.ins-titulos-index:hover{
+    color: var(--cor1);
+}
+
+ins.ins-elenco:hover{
+    background-color: black;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+ins.ins-idolos:hover{
+    background-color: black;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+
+
+hr{
+    margin: 20px 0px;
+}
