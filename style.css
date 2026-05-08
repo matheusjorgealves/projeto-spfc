@@ -286,24 +286,30 @@ section{
     padding-bottom: 20vh;
 }
 
+/* Efeito Parallax */
 section.imagem{
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
     background-color: darkgray;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center top;
+    background-position: top center;
 }
 
 section.imagem > ul{ /* Textos dentro das imagens */
     display: inline-block;
     padding: 15px;
     margin: 15px;
-    background-color: rgba(0, 0, 0, 0.500);
+    background-color: rgba(0, 0, 0, 0.705);
     color: white;
     text-shadow: 1px 1px 0px black;
 }
 
 section#img01{
-    background-image: url(imagens/imagem.wendell.png);
+    background-image: url(imagens/imagem.wendell.avif);
 }
 
 section#img02{
@@ -311,5 +317,5 @@ section#img02{
 }
 
 section#img03{
-    background-image: url(imagens/imagem.oscar.webp);
+    background-image: url(imagens/imagem.oscar.jpg);
 }
